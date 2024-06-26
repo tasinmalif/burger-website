@@ -1,100 +1,159 @@
 <!DOCTYPE html>
-   <html lang="en">
-   <head>
-      <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-      <!--=============== FAVICON ===============-->
-      <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+    <!--=============== FAVICON ===============-->
+    <link
+      rel="shortcut icon"
+      href="assets/img/favicon.png"
+      type="image/x-icon"
+    />
 
-      <!--=============== REMIXICONS ===============-->
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.min.css">
+    <!--=============== REMIXICONS ===============-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.min.css"
+    />
 
-      <!--=============== CSS ===============-->
-      <link rel="stylesheet" href="assets/css/styles.css">
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/styles.css" />
 
-      <title>Responsive burger website</title>
-   </head>
-   <body>
-      <!--==================== HEADER ====================-->
-      <header class="header" id="header">
-         <nav class="nav container">
-            <a href="/" class="nav__logo">
-               <div>
-                  <img src="assets/img/logo-burger.svg" alt="burger-logo">
-               </div>
-               Burger
-            </a>
+    <title>Responsive burger website</title>
+  </head>
+  <body>
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="/" class="nav__logo">
+          <div>
+            <img src="assets/img/logo-burger.svg" alt="burger-logo" />
+          </div>
+          Burger
+        </a>
 
-            <div class="nav__menu" id="nav-menu">
-               <ul class="nav__list">
-                  <li>
-                     <a href="#home" class="nav__link">Home</a>
-                  </li>
-                  <li>
-                     <a href="#recipe" class="nav__link">Recipe</a>
-                  </li>
-                  <li>
-                     <a href="#delivery" class="nav__link">Delivery</a>
-                  </li>
-                  <li>
-                     <a href="#contact" class="nav__link">Contact</a>
-                  </li>
-               </ul>
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li>
+              <a href="#home" class="nav__link">Home</a>
+            </li>
+            <li>
+              <a href="#recipe" class="nav__link">Recipe</a>
+            </li>
+            <li>
+              <a href="#delivery" class="nav__link">Delivery</a>
+            </li>
+            <li>
+              <a href="#contact" class="nav__link">Contact</a>
+            </li>
+          </ul>
 
-               <!-- Nav Menu Close Button -->
-                <div class="nav__close" id="nav-close">
-                  <i class="ri-close-line"></i>
-                </div>
-            </div>
+          <!-- Nav Menu Close Button -->
+          <div class="nav__close" id="nav-close">
+            <i class="ri-close-line"></i>
+          </div>
+        </div>
 
-            <!-- Nav Menu Toggle Button -->
-             <div class="nav__toggle" id="nav-toggle">
-               <i class="ri-apps-2-fill"></i>
-             </div>
-         </nav>
-      </header>
+        <!-- Nav Menu Toggle Button -->
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="ri-apps-2-fill"></i>
+        </div>
+      </nav>
+    </header>
 
-      <!--==================== MAIN ====================-->
-      <main class="main">
-         <!--==================== HOME ====================-->
-         <section class="home section" id="home">
-            
-         </section>
+    <!--==================== MAIN ====================-->
+    <main class="main">
+      <!--==================== HOME ====================-->
+      <section class="home section" id="home">
+        <div class="home__container container grid">
+          <div class="home__data">
+            <h1 class="home__title">
+              Love Every <br />
+              Burger
+            </h1>
+            <p class="home__description">
+              We serve the best burgers on the planet, paving the way for
+              cooking and preparing hot, delicious burgers.
+            </p>
 
-         <!--==================== RECIPE ====================-->
-         <section class="recipe section" id="recipe">
-            
-         </section>
+            <a href="#popular" class="button">Bite Now</a>
 
-         <!--==================== POPULAR ====================-->
-         <section class="popular section" id="popular">
-            
-         </section>
+            <img
+              src="assets/img/sticker-potatoes.svg"
+              alt=""
+              class="home__sticker"
+            />
+          </div>
 
-         <!--==================== DELIVERY ====================-->
-         <section class="delivery section" id="delivery">
-            
-         </section>
+          <div class="home__images">
+            <img
+              src="assets/img/home-burger.png"
+              alt="burger-image"
+              class="home__burger"
+            />
+            <img
+              src="assets/img/home-dish.png"
+              alt="a wooden plate"
+              class="home__dish"
+            />
 
-         <!--==================== CONTACT ====================-->
-         <section class="contact section" id="contact">
-            
-         </section>
-      </main>
+            <img
+              src="assets/img/home-potato.png"
+              alt="a piece of french-fry"
+              class="home__ingredient home__potato-1"
+            />
+            <img
+              src="assets/img/home-potato.png"
+              alt="a piece of french-fry"
+              class="home__ingredient home__potato-2"
+            />
+            <img
+              src="assets/img/home-tomato.png"
+              alt="slice of tomato"
+              class="home__ingredient home__tomato-1"
+            />
+            <img
+              src="assets/img/home-tomato.png"
+              alt="slice of tomato"
+              class="home__ingredient home__tomato-2"
+            />
+            <img
+              src="assets/img/home-lettuce.png"
+              alt="a piece of lettuce"
+              class="home__ingredient home__lettuce-1"
+            />
+            <img
+              src="assets/img/home-lettuce.png"
+              alt="a piece of lettuce"
+              class="home__ingredient home__lettuce-2"
+            />
+          </div>
+        </div>
+      </section>
 
-      <!--==================== FOOTER ====================-->
-      <footer class="footer">
+      <!--==================== RECIPE ====================-->
+      <section class="recipe section" id="recipe"></section>
 
-      </footer>
+      <!--==================== POPULAR ====================-->
+      <section class="popular section" id="popular"></section>
 
-      <!--========== SCROLL UP ==========-->
-      
+      <!--==================== DELIVERY ====================-->
+      <section class="delivery section" id="delivery"></section>
 
-      <!--=============== SCROLLREVEAL ===============-->
-      <script src=""></script>
+      <!--==================== CONTACT ====================-->
+      <section class="contact section" id="contact"></section>
+    </main>
 
-      <!--=============== MAIN JS ===============-->
-      <script src="assets/js/main.js"></script>
-   </body>
+    <!--==================== FOOTER ====================-->
+    <footer class="footer"></footer>
+
+    <!--========== SCROLL UP ==========-->
+
+    <!--=============== SCROLLREVEAL ===============-->
+    <script src=""></script>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="assets/js/main.js"></script>
+  </body>
 </html>
